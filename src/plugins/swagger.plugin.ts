@@ -63,7 +63,7 @@ const swaggerPlugin = async (fastify: FastifyInstance) => {
   fastify.setSerializerCompiler(serializerCompiler);
   fastify.setValidatorCompiler(validatorCompiler);
 
-  fastify.register(routes);
+  fastify.register(routes, { prefix: "/api" });
 };
 
 export default fp(swaggerPlugin, { name: "swagger" });
