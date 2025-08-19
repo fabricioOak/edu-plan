@@ -26,6 +26,7 @@
     "@fastify/rate-limit": "^10.3.0",
     "argon2": "^0.44.0",
     "drizzle-orm": "^0.44.4",
+    "drizzle-seed": "^0.3.1",
     "drizzle-zod": "^0.8.3",
     "fastify": "^5.5.0",
     "fastify-type-provider-zod": "^5.0.3",
