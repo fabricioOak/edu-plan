@@ -1,6 +1,6 @@
-import { app } from "./app";
+import { server } from "./server";
 
-app.listen({ port: Number(process.env.PORT) }, (err, address) => {
+server.listen({ port: Number(process.env.PORT) }, (err, address) => {
   if (err) {
     console.error(err);
   }
